@@ -8,3 +8,4 @@ For Part 1:-
 2) Pip install Pandas
 
 
+![](images/dashboard.png)

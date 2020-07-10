@@ -1,7 +1,5 @@
-/* Belong to https://codepen.io/chriddyp/pen/bWLwgP.css 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
-- Added by Me
 - Plotly.js
 - Grid
 - Base Styles
@@ -16,30 +14,9 @@
 - Utilities
 - Clearing
 - Media Queries
-/* Added by Me
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+*/
 
-.Select--multi .Select-value-label {
-  background-color: darkorange;
-  border-color: #e3a700;
-  color: #fff;
-}
-
-.Select--multi .Select-value-icon{
-	 background-color: darkorange;
-	 border-color: darkorange;
-}
-
-.Select--multi .Select-value {
-	font-size: 20px;
-}
-
-
-label{
-font-size: 20px;
-}
-
-/* PLotly.js
+/* PLotly.js 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* plotly.js's modebar's z-index is 1001 by default
  * https://github.com/plotly/plotly.js/blob/7e4d8ab164258f6bd48be56589dacd9bdd7fded2/src/css/_modebar.scss#L5
@@ -50,10 +27,10 @@ font-size: 20px;
 
 /* This was actually not quite right -
    dropdowns were overlapping each other (edited October 26)
+
 .Select {
     z-index: 1002;
 }*/
-
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -154,7 +131,8 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: rgb(50, 50, 50); }
+  color: rgb(50, 50, 50);
+background-color: #DDDDDD;  }
 
 
 /* Typography
@@ -188,7 +166,7 @@ blockquote {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB;
+  color: #1EAEDB; 
   text-decoration: underline;
   cursor: pointer;}
 a:hover {
@@ -272,7 +250,7 @@ select {
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   font-family: inherit;
   font-size: inherit; /*https://stackoverflow.com/questions/6080413/why-doesnt-input-inherit-the-font-from-body*/}
 /* Removes awkward default styles on some inputs for iOS */
@@ -342,16 +320,16 @@ li {
 table {
   border-collapse: collapse;
 }
-th:not(.CalendarDay),
-td:not(.CalendarDay) {
+th,
+td {
   padding: 12px 15px;
   text-align: left;
   border-bottom: 1px solid #E1E1E1; }
-th:first-child:not(.CalendarDay),
-td:first-child:not(.CalendarDay) {
+th:first-child,
+td:first-child {
   padding-left: 0; }
-th:last-child:not(.CalendarDay),
-td:last-child:not(.CalendarDay) {
+th:last-child,
+td:last-child {
   padding-right: 0; }
 
 
